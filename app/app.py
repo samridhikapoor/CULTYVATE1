@@ -127,6 +127,7 @@ def predict_image(img, model=disease_model):
 
 
 app = Flask(__name__)
+app.config["CACHE_TYPE"] = "null"
 
 # render home page
 
@@ -262,4 +263,4 @@ def disease_prediction():
 
 # ===============================================================================================
 if __name__ == '__main__':
-    app.run(debug=False)
+    app.run(debug=False, port=8000)

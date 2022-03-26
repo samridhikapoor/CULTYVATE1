@@ -247,7 +247,7 @@ li > a:only-child:after { content: ''; }
 		border: none;
 		float: right;
 		background-color: #009f4d;
-		color: #fff;
+		color: rgb(255, 255, 255);
 	}
 	.menu .toggle {
 		float: none;
@@ -372,7 +372,7 @@ li > a:only-child:after { content: ''; }
 }
 
 .banner-top {
-    background: url(../images/3.jpg) no-repeat center;
+    background: url(../images/2.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -381,7 +381,7 @@ li > a:only-child:after { content: ''; }
 }
 
 .banner-top1 {
-    background: url(../images/1.jpg) no-repeat center;
+    background: url(../images/2.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -390,7 +390,7 @@ li > a:only-child:after { content: ''; }
 }
 
 .banner-top2 {
-    background: url(../images/5.jpg) no-repeat center;
+    background: url(../images/2.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -550,7 +550,7 @@ p.about-text {
 
 /*-- bg --*/
 .background-img {
-    background: url(../images/5.jpg) no-repeat center;
+    background: url("app\static\images\2.jpg") no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
